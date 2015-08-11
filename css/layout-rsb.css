@@ -1,0 +1,87 @@
+/*GENERIC*/
+body {
+    padding: 30px 0;
+}
+img {
+    max-width: 100%;
+}
+ul.inlinelinks {
+    list-style: none;
+    padding: 0;
+}
+.inlinelinks li {
+    display: inline-block;
+    margin-right: 3px;
+    padding-right: 4px;
+}
+    .inlinelinks li:last-of-type {
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+
+
+
+/*MASTHEAD*/
+
+.masthead {
+    margin-bottom: 64px;
+}
+    .masthead .brand {
+        max-width: 256px;
+    }
+
+
+
+/*OFFEREDBY*/
+aside.offeredby {
+    text-align: right;
+}
+aside.offeredby .logotext {
+    display: inline-block;
+    text-align: right;
+    width: 100%;
+    max-width: 260px;
+}
+@media (max-width: 767px) {
+    aside.offeredby {
+        text-align: left;
+    }
+}
+
+
+
+/*FORMS*/
+.group-buttons {
+    margin-bottom: 24px;
+}
+
+
+
+/*SITE LOGIN*/
+.sitelogin .newtosite {
+    float: right;
+}
+
+    @media (max-width: 990px) {
+        .sitelogin .newtosite {
+            float: none;
+            margin-top: 4px;
+        }
+    }
+
+
+
+/*FOOTER*/
+.pagefooter {
+    margin-top: 24px;
+    padding-top: 24px;
+}
+    .pagefooter .comodo {
+        text-align: right;
+    }
+
+    @media (max-width: 767px) {
+        .pagefooter .comodo {
+            text-align: left;
+        }
+    }
